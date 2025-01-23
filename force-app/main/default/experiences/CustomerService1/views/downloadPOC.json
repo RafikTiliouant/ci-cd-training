@@ -1,0 +1,71 @@
+{
+  "appPageId" : "10df77d6-f836-48cb-b9cf-1e87ebfdbdf7",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4b176bd2-f23c-4508-b73d-f1662c215f19",
+  "label" : "Download POC",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f58da683-67a4-48f1-8b8f-155b1da229c9",
+          "columns" : [ {
+            "UUID" : "884814ad-d4e4-49f5-b2b8-3af6adf6578b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f58da683-67a4-48f1-8b8f-155b1da229c9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "Download_List_Selector"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "56e806d0-5e83-431d-ab44-0bb86876976c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "884814ad-d4e4-49f5-b2b8-3af6adf6578b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d1c39b8e-dabb-4b11-ba45-8284d99dfc8d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Download POC"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "34256c94-b9db-4a82-bc5e-84f4bd9391d2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b460b87e-c9d1-4752-be26-44e38623b0c5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-download-poc"
+}

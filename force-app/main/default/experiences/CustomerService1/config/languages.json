@@ -1,0 +1,15 @@
+{
+  "defaultCode" : "fr",
+  "defaultLabel" : "French",
+  "id" : "a77a060f-a26f-4f97-9668-75362b1291e9",
+  "languages" : [ {
+    "countryCode" : "US",
+    "fallbackLanguageId" : null,
+    "id" : "3d77b070-2c9d-42ad-b0e7-d96f147ad588",
+    "isActive" : true,
+    "label" : "English (US)",
+    "languageCode" : "en",
+    "type" : "language"
+  } ],
+  "type" : "languageContainer"
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.filters {
+    width: 25%;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+}
+
+.list-view {
+    width: 75%;
+    padding: 1rem;
+}

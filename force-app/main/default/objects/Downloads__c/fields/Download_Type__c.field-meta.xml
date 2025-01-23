@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Download_Type__c</fullName>
+    <label>Download Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Environments</fullName>
+                <default>false</default>
+                <label>Environments</label>
+            </value>
+            <value>
+                <fullName>Getting Started</fullName>
+                <default>false</default>
+                <label>Getting Started</label>
+            </value>
+            <value>
+                <fullName>Manufacturer Catalogue</fullName>
+                <default>false</default>
+                <label>Manufacturer Catalogue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Release videos</fullName>
+                <default>false</default>
+                <label>Release videos</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <label>Update</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <label>Utility</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Environments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Getting Started</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Manufacturer Catalogue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Release videos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caneco BT/ HT</controllingFieldValue>
+            <controllingFieldValue>Caneco BIM</controllingFieldValue>
+            <controllingFieldValue>Caneco Implantation</controllingFieldValue>
+            <controllingFieldValue>Caneco Electrical</controllingFieldValue>
+            <controllingFieldValue>REVIT</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Project Manager</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical PLM</controllingFieldValue>
+            <controllingFieldValue>SEE Compodata</controllingFieldValue>
+            <controllingFieldValue>SEE Web Catalogue</controllingFieldValue>
+            <controllingFieldValue>SEE System Design</controllingFieldValue>
+            <controllingFieldValue>SEE Gen e-Doc</controllingFieldValue>
+            <controllingFieldValue>SEE EED	XELEC</controllingFieldValue>
+            <valueName>Utility</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

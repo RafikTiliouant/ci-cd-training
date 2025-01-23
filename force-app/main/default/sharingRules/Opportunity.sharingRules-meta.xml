@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Benelux</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Benelux</label>
+        <sharedTo>
+            <roleAndSubordinates>Belgium_Netherlands_Sales_manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.Benelux</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>German_Sharing_rules</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share with all german territory</description>
+        <label>German Sharing rules</label>
+        <sharedTo>
+            <territoryAndSubordinates>IGE_XAO_World.Germany</territoryAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Germany_Sales_Manager</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Germany_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Can see all zones</description>
+        <label>Germany Sales</label>
+        <sharedTo>
+            <roleAndSubordinates>Germany_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.Germany</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Greece</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Greece</label>
+        <sharedTo>
+            <roleAndSubordinates>Greece_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.Greece</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>India</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>India</label>
+        <sharedTo>
+            <roleAndSubordinates>India_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.India</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Italy_Assistant_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Italy Assistant Sharing</label>
+        <sharedTo>
+            <territory>IGE_XAO_World.Italy_IGE_XAO</territory>
+        </sharedTo>
+        <sharedFrom>
+            <role>Italy_Sales_Assistant</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Italy_Sharing_view</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Italy Sharing view</label>
+        <sharedTo>
+            <territory>IGE_XAO_World.Italy_IGE_XAO</territory>
+        </sharedTo>
+        <sharedFrom>
+            <role>Italy_Sales_Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>MEA_Sharing_rules</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>MEA Sharing rules</label>
+        <sharedTo>
+            <territoryAndSubordinates>IGE_XAO_World.Middle_East_Africa</territoryAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Middle_East_Africa_Sales_Manager</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Poland_assistant</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Poland assistant</label>
+        <sharedTo>
+            <role>Poland_Sales_Assistant</role>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.Poland</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Role_Executive_MEA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Role Executive MEA</label>
+        <sharedTo>
+            <roleAndSubordinates>Middle_East_Africa_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Middle_East_Africa_Sales_Manager</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sales_france_SMB</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales france SMB</label>
+        <sharedTo>
+            <roleAndSubordinates>France_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.FRA_SMB</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Transfer_from_Adia_to_Benjamin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Transfer from Adia to Benjamin</label>
+        <sharedTo>
+            <group>Transfert_Record</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Transfert_Record</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>UK_Sales_Executive</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>As a users from United Kingdom,
+I want to be able to view and edit my colleagues&apos;s opportunities
+in order to work on it</description>
+        <label>UK Sales Executive</label>
+        <sharedTo>
+            <roleAndSubordinates>United_Kingdom_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.United_Kingdom</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f88c272f-257d-4d1f-95d6-80acdbe9346f",
+  "appPageId" : "10df77d6-f836-48cb-b9cf-1e87ebfdbdf7",
+  "configurationTags" : [ ],
+  "devName" : "Download_List__c",
+  "id" : "31187f68-2cd0-494c-81d8-4e91e831c388",
+  "label" : "Download List",
+  "objectApiName" : "Downloads__c",
+  "routeType" : "list-a37",
+  "type" : "route",
+  "urlPrefix" : "downloads"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Caneco_BT_Downloads</fullName>
+    <columns>NAME</columns>
+    <columns>Product__c</columns>
+    <columns>Download_Type__c</columns>
+    <columns>Version_Number__c</columns>
+    <columns>Download_Current_Version_Link__c</columns>
+    <columns>Read_me_Instructions_Link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product__c</field>
+        <operation>equals</operation>
+        <value>Caneco BT/ HT</value>
+    </filters>
+    <label>Caneco BT Downloads</label>
+</ListView>

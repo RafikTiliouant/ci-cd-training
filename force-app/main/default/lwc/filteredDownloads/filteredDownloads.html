@@ -1,0 +1,42 @@
+<template>
+    <div class="container">
+        <!-- Filters Section -->
+        <div class="filters">
+            <!-- Product Filter -->
+            <lightning-combobox
+                label="Product"
+                name="product"
+                value={filters.product}
+                options={productOptions}
+                onchange={handleFilterChange}>
+            </lightning-combobox>
+
+            <!-- Country Filter -->
+            <lightning-combobox
+                label="Country"
+                name="country"
+                value={filters.country}
+                options={countryOptions}
+                onchange={handleFilterChange}>
+            </lightning-combobox>
+
+            <!-- Language Filter -->
+            <lightning-combobox
+                label="Language"
+                name="language"
+                value={filters.language}
+                options={languageOptions}
+                onchange={handleFilterChange}>
+            </lightning-combobox>
+        </div>
+
+        <!-- List View Section -->
+        <div class="list-view">
+            <lightning-datatable
+                data={downloads}
+                columns={columns}
+                key-field="Id">
+            </lightning-datatable>
+        </div>
+    </div>
+</template>

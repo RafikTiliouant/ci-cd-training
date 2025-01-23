@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>All_Germany_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>All Germany Sales</label>
+        <sharedTo>
+            <roleAndSubordinates>Germany_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Germany</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Lead Revit RecordType</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lead_synergy</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Lead synergy</label>
+        <sharedTo>
+            <role>France_Sales_Executive</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>France</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Denmark_Sales_Executive</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Denmark Sales Executive</label>
+        <sharedTo>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Italy_Sharing_rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Italy Sharing rule</label>
+        <sharedTo>
+            <roleAndSubordinates>Italy_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Italy_Sales_Manager</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Italy_Sharing_rules</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Give sales users from italy to work on each other&apos;s opportunities</description>
+        <label>Italy- Sharing rules</label>
+        <sharedTo>
+            <roleAndSubordinates>Italy_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Italy_Sales_Executive</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lead_Italy</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Lead Italy</label>
+        <sharedTo>
+            <roleAndSubordinates>India_Sales_Manager</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <territoryAndSubordinates>IGE_XAO_World.Italy_IGE_XAO</territoryAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lead_Nordic_ZoneA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Lead Nordic ZoneA</label>
+        <sharedTo>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Nordic_Zone_A</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Nordic_ZoneB</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Nordic ZoneB</label>
+        <sharedTo>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Nordic_Zone_B</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Nordic_ZoneC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Nordic ZoneC</label>
+        <sharedTo>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Nordic_Zone_C</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Nordic_ZoneD</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Nordic ZoneD</label>
+        <sharedTo>
+            <roleAndSubordinates>Nordic_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Nordic_Zone_D</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Spain_Sales_Executive</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>As a sales users,
+I want to be able to view and edit my colleague&apos;s lead owner
+In order to work on it</description>
+        <label>Spain Sales Executive</label>
+        <sharedTo>
+            <roleAndSubordinates>Spain_Sales_Executive</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Spain_Sales_Executive</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

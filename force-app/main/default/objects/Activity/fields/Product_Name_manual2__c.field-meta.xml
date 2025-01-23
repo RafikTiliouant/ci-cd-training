@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Name_manual2__c</fullName>
+    <label>Product Name (manual)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3D Panel Design</fullName>
+                <default>false</default>
+                <label>3D Panel Design</label>
+            </value>
+            <value>
+                <fullName>3D Panel Manufacturing</fullName>
+                <default>false</default>
+                <label>3D Panel Manufacturing</label>
+            </value>
+            <value>
+                <fullName>AIDMAP II</fullName>
+                <default>false</default>
+                <label>AIDMAP II</label>
+            </value>
+            <value>
+                <fullName>Alapage-Elec</fullName>
+                <default>false</default>
+                <label>Alapage-Elec</label>
+            </value>
+            <value>
+                <fullName>ALPI UPDATE</fullName>
+                <default>false</default>
+                <label>ALPI UPDATE</label>
+            </value>
+            <value>
+                <fullName>Autocad</fullName>
+                <default>false</default>
+                <label>Autocad</label>
+            </value>
+            <value>
+                <fullName>Caneco BIM</fullName>
+                <default>false</default>
+                <label>Caneco BIM</label>
+            </value>
+            <value>
+                <fullName>Caneco BT</fullName>
+                <default>false</default>
+                <label>Caneco BT</label>
+            </value>
+            <value>
+                <fullName>Caneco Electrical</fullName>
+                <default>false</default>
+                <label>Caneco Electrical</label>
+            </value>
+            <value>
+                <fullName>Caneco EP</fullName>
+                <default>false</default>
+                <label>Caneco EP</label>
+            </value>
+            <value>
+                <fullName>Caneco EP IMP</fullName>
+                <default>false</default>
+                <label>Caneco EP IMP</label>
+            </value>
+            <value>
+                <fullName>Caneco HT</fullName>
+                <default>false</default>
+                <label>Caneco HT</label>
+            </value>
+            <value>
+                <fullName>Caneco Implantation</fullName>
+                <default>false</default>
+                <label>Caneco Implantation</label>
+            </value>
+            <value>
+                <fullName>Caneco ONE</fullName>
+                <default>false</default>
+                <label>Caneco ONE</label>
+            </value>
+            <value>
+                <fullName>Caneco TCC</fullName>
+                <default>false</default>
+                <label>Caneco TCC</label>
+            </value>
+            <value>
+                <fullName>EasyRail Designer</fullName>
+                <default>false</default>
+                <label>EasyRail Designer</label>
+            </value>
+            <value>
+                <fullName>Eliot</fullName>
+                <default>false</default>
+                <label>Eliot</label>
+            </value>
+            <value>
+                <fullName>Formation</fullName>
+                <default>false</default>
+                <label>Formation</label>
+            </value>
+            <value>
+                <fullName>Hcontrol</fullName>
+                <default>false</default>
+                <label>Hcontrol</label>
+            </value>
+            <value>
+                <fullName>ODIL</fullName>
+                <default>false</default>
+                <label>ODIL</label>
+            </value>
+            <value>
+                <fullName>Office Elec</fullName>
+                <default>false</default>
+                <label>Office Elec</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PV Integration</fullName>
+                <default>false</default>
+                <label>PV Integration</label>
+            </value>
+            <value>
+                <fullName>Revit</fullName>
+                <default>false</default>
+                <label>Revit</label>
+            </value>
+            <value>
+                <fullName>Schema</fullName>
+                <default>false</default>
+                <label>Schema</label>
+            </value>
+            <value>
+                <fullName>SEE 2000 Pack Automatisme</fullName>
+                <default>false</default>
+                <label>SEE 2000 Pack Automatisme</label>
+            </value>
+            <value>
+                <fullName>SEE 2000 Pack Unifilaire</fullName>
+                <default>false</default>
+                <label>SEE 2000 Pack Unifilaire</label>
+            </value>
+            <value>
+                <fullName>SEE 3000</fullName>
+                <default>false</default>
+                <label>SEE 3000</label>
+            </value>
+            <value>
+                <fullName>SEE 4000</fullName>
+                <default>false</default>
+                <label>SEE 4000</label>
+            </value>
+            <value>
+                <fullName>SEE Cabling</fullName>
+                <default>false</default>
+                <label>SEE Cabling</label>
+            </value>
+            <value>
+                <fullName>SEE Calculation</fullName>
+                <default>false</default>
+                <label>SEE Calculation</label>
+            </value>
+            <value>
+                <fullName>SEE Compodata</fullName>
+                <default>false</default>
+                <label>SEE Compodata</label>
+            </value>
+            <value>
+                <fullName>SEE EED</fullName>
+                <default>false</default>
+                <label>SEE EED</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical</fullName>
+                <default>false</default>
+                <label>SEE Electrical</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical 3D Panel+</fullName>
+                <default>false</default>
+                <label>SEE Electrical 3D Panel+</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical 3D Shop Floor</fullName>
+                <default>false</default>
+                <label>SEE Electrical 3D Shop Floor</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Building</fullName>
+                <default>false</default>
+                <label>SEE Electrical Building</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Building+</fullName>
+                <default>false</default>
+                <label>SEE Electrical Building+</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Building Schneider Edition</fullName>
+                <default>false</default>
+                <label>SEE Electrical Building Schneider Edition</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Expert</fullName>
+                <default>false</default>
+                <label>SEE Electrical Expert</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Expert Embedded</fullName>
+                <default>false</default>
+                <label>SEE Electrical Expert Embedded</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Expert Viewer</fullName>
+                <default>false</default>
+                <label>SEE Electrical Expert Viewer</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Free</fullName>
+                <default>false</default>
+                <label>SEE Electrical Free</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Harness Manufacturing</fullName>
+                <default>false</default>
+                <label>SEE Electrical Harness Manufacturing</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical LT</fullName>
+                <default>false</default>
+                <label>SEE Electrical LT</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical PLM</fullName>
+                <default>false</default>
+                <label>SEE Electrical PLM</label>
+            </value>
+            <value>
+                <fullName>SEE Electrical Viewer</fullName>
+                <default>false</default>
+                <label>SEE Electrical Viewer</label>
+            </value>
+            <value>
+                <fullName>SEE Gen E-doc</fullName>
+                <default>false</default>
+                <label>SEE Gen E-doc</label>
+            </value>
+            <value>
+                <fullName>SEE PM</fullName>
+                <default>false</default>
+                <label>SEE PM</label>
+            </value>
+            <value>
+                <fullName>SEE PM LT</fullName>
+                <default>false</default>
+                <label>SEE PM LT</label>
+            </value>
+            <value>
+                <fullName>SEE PM PLM</fullName>
+                <default>false</default>
+                <label>SEE PM PLM</label>
+            </value>
+            <value>
+                <fullName>SEE Project Manager</fullName>
+                <default>false</default>
+                <label>SEE Project Manager</label>
+            </value>
+            <value>
+                <fullName>SEE System Design</fullName>
+                <default>false</default>
+                <label>SEE System Design</label>
+            </value>
+            <value>
+                <fullName>SEE Technical</fullName>
+                <default>false</default>
+                <label>SEE Technical</label>
+            </value>
+            <value>
+                <fullName>SEE Web Catalogue</fullName>
+                <default>false</default>
+                <label>SEE Web Catalogue</label>
+            </value>
+            <value>
+                <fullName>SIMAC</fullName>
+                <default>false</default>
+                <label>SIMAC</label>
+            </value>
+            <value>
+                <fullName>XELEC</fullName>
+                <default>false</default>
+                <label>XELEC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

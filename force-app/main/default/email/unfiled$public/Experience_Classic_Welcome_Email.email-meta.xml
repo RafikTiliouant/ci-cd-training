@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Experience Classic Welcome Email</name>
+    <style>none</style>
+    <subject>Welcome to ETAP Customer Portal - Your Account is Ready!</subject>
+    <textOnly>Dear customer,
+
+We&apos;re excited to welcome you to ETAP Customer Portal! Your account has been successfully created, giving you access to our self-service platform.
+
+Here&apos;s what you need to know to get started:
+
+1. First-Time Login:
+- Visit this link : Define your password , and enter this username : {!Receiving_User.Username}
+- You&apos;ll be prompted to define a password.
+
+2. Already a customer and you want to reset your password :
+- Visit this link : Reset your password , and enter this username : {!Receiving_User.Username}
+- You&apos;ll be prompted to create a new password.
+
+
+3. Key Features:
+- View and manage your account asset details.
+- Access our knowledge base for quick answers.
+- Submit and track support cases.
+
+4. Need Help?
+If you have any questions or need assistance, please:
+- Check our FAQ section in the portal
+- Contact our support team at support@bim-electric.com
+
+Security Tip: Please ensure you change your password upon your first login and keep your login information secure.
+
+We&apos;re committed to providing you with the best possible experience. Your feedback is valuable to us, so please don&apos;t hesitate to reach out with any suggestions or concerns.
+
+Welcome aboard, and we look forward to serving you through our Customer Portal!
+
+Best regards,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

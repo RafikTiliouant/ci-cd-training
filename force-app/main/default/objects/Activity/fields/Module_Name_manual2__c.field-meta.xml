@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module_Name_manual2__c</fullName>
+    <label>Module Name (manual)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Name_manual2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2D Documentation Designer</fullName>
+                <default>false</default>
+                <label>2D Documentation Designer</label>
+            </value>
+            <value>
+                <fullName>3D Cabinet Layout (SolidWorks)</fullName>
+                <default>false</default>
+                <label>3D Cabinet Layout (SolidWorks)</label>
+            </value>
+            <value>
+                <fullName>3D Copper</fullName>
+                <default>false</default>
+                <label>3D Copper</label>
+            </value>
+            <value>
+                <fullName>3D Panel (Old)</fullName>
+                <default>false</default>
+                <label>3D Panel (Old)</label>
+            </value>
+            <value>
+                <fullName>3D Panel+</fullName>
+                <default>false</default>
+                <label>3D Panel+</label>
+            </value>
+            <value>
+                <fullName>3D Panel for Solidworks</fullName>
+                <default>false</default>
+                <label>3D Panel for Solidworks</label>
+            </value>
+            <value>
+                <fullName>3D Panel Manuf. for Solidworks</fullName>
+                <default>false</default>
+                <label>3D Panel Manuf. for Solidworks</label>
+            </value>
+            <value>
+                <fullName>3D Panel Manufacturing (3D Panel+)</fullName>
+                <default>false</default>
+                <label>3D Panel Manufacturing (3D Panel+)</label>
+            </value>
+            <value>
+                <fullName>3D Panels</fullName>
+                <default>false</default>
+                <label>3D Panels</label>
+            </value>
+            <value>
+                <fullName>3D Panels Manufacturing</fullName>
+                <default>false</default>
+                <label>3D Panels Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Auto Generator</fullName>
+                <default>false</default>
+                <label>Auto Generator</label>
+            </value>
+            <value>
+                <fullName>Automatic Diagram Generation</fullName>
+                <default>false</default>
+                <label>Automatic Diagram Generation</label>
+            </value>
+            <value>
+                <fullName>Base_SEE</fullName>
+                <default>false</default>
+                <label>Base_SEE</label>
+            </value>
+            <value>
+                <fullName>Base_Viewer</fullName>
+                <default>false</default>
+                <label>Base_Viewer</label>
+            </value>
+            <value>
+                <fullName>Building+</fullName>
+                <default>false</default>
+                <label>Building+</label>
+            </value>
+            <value>
+                <fullName>Cabinet Layout</fullName>
+                <default>false</default>
+                <label>Cabinet Layout</label>
+            </value>
+            <value>
+                <fullName>Cabinet Thermal Calculation</fullName>
+                <default>false</default>
+                <label>Cabinet Thermal Calculation</label>
+            </value>
+            <value>
+                <fullName>Cabling</fullName>
+                <default>false</default>
+                <label>Cabling</label>
+            </value>
+            <value>
+                <fullName>Cabling (Not Available)</fullName>
+                <default>false</default>
+                <label>Cabling (Not Available)</label>
+            </value>
+            <value>
+                <fullName>CANECO Connect</fullName>
+                <default>false</default>
+                <label>CANECO Connect</label>
+            </value>
+            <value>
+                <fullName>Catia Interface</fullName>
+                <default>false</default>
+                <label>Catia Interface</label>
+            </value>
+            <value>
+                <fullName>Circuit Diagram</fullName>
+                <default>false</default>
+                <label>Circuit Diagram</label>
+            </value>
+            <value>
+                <fullName>Circuit Diagrams IEC</fullName>
+                <default>false</default>
+                <label>Circuit Diagrams IEC</label>
+            </value>
+            <value>
+                <fullName>Circuit Diagrams IEEE</fullName>
+                <default>false</default>
+                <label>Circuit Diagrams IEEE</label>
+            </value>
+            <value>
+                <fullName>Circuit Diagram US</fullName>
+                <default>false</default>
+                <label>Circuit Diagram US</label>
+            </value>
+            <value>
+                <fullName>Collaborative (with SPM)</fullName>
+                <default>false</default>
+                <label>Collaborative (with SPM)</label>
+            </value>
+            <value>
+                <fullName>Concurrent Engineering</fullName>
+                <default>false</default>
+                <label>Concurrent Engineering</label>
+            </value>
+            <value>
+                <fullName>Copper (Need 3D Panel+)</fullName>
+                <default>false</default>
+                <label>Copper (Need 3D Panel+)</label>
+            </value>
+            <value>
+                <fullName>Creo Elements Pro Interface</fullName>
+                <default>false</default>
+                <label>Creo Elements Pro Interface</label>
+            </value>
+            <value>
+                <fullName>Cross Referencing</fullName>
+                <default>false</default>
+                <label>Cross Referencing</label>
+            </value>
+            <value>
+                <fullName>Cross Réferencing</fullName>
+                <default>false</default>
+                <label>Cross Réferencing</label>
+            </value>
+            <value>
+                <fullName>Data Extractor</fullName>
+                <default>false</default>
+                <label>Data Extractor</label>
+            </value>
+            <value>
+                <fullName>Distribution Diagrams</fullName>
+                <default>false</default>
+                <label>Distribution Diagrams</label>
+            </value>
+            <value>
+                <fullName>Drawing Editor</fullName>
+                <default>false</default>
+                <label>Drawing Editor</label>
+            </value>
+            <value>
+                <fullName>DXF/DWG</fullName>
+                <default>false</default>
+                <label>DXF/DWG</label>
+            </value>
+            <value>
+                <fullName>DXF / DWG</fullName>
+                <default>false</default>
+                <label>DXF / DWG</label>
+            </value>
+            <value>
+                <fullName>eCatalog</fullName>
+                <default>false</default>
+                <label>eCatalog</label>
+            </value>
+            <value>
+                <fullName>ECOIAL Connect</fullName>
+                <default>false</default>
+                <label>ECOIAL Connect</label>
+            </value>
+            <value>
+                <fullName>End Fitting</fullName>
+                <default>false</default>
+                <label>End Fitting</label>
+            </value>
+            <value>
+                <fullName>Environment Manager</fullName>
+                <default>false</default>
+                <label>Environment Manager</label>
+            </value>
+            <value>
+                <fullName>Env Manager</fullName>
+                <default>false</default>
+                <label>Env Manager</label>
+            </value>
+            <value>
+                <fullName>Env Manager from V4R2</fullName>
+                <default>false</default>
+                <label>Env Manager from V4R2</label>
+            </value>
+            <value>
+                <fullName>Harness Documentation</fullName>
+                <default>false</default>
+                <label>Harness Documentation</label>
+            </value>
+            <value>
+                <fullName>Harness Manufacturing (JigBoard)</fullName>
+                <default>false</default>
+                <label>Harness Manufacturing (JigBoard)</label>
+            </value>
+            <value>
+                <fullName>Installation Drawing</fullName>
+                <default>false</default>
+                <label>Installation Drawing</label>
+            </value>
+            <value>
+                <fullName>Intelligent Drawing Legacy</fullName>
+                <default>false</default>
+                <label>Intelligent Drawing Legacy</label>
+            </value>
+            <value>
+                <fullName>Intelligent PDF</fullName>
+                <default>false</default>
+                <label>Intelligent PDF</label>
+            </value>
+            <value>
+                <fullName>Interco (Not Available)</fullName>
+                <default>false</default>
+                <label>Interco (Not Available)</label>
+            </value>
+            <value>
+                <fullName>Interconnection</fullName>
+                <default>false</default>
+                <label>Interconnection</label>
+            </value>
+            <value>
+                <fullName>Inventor Interface</fullName>
+                <default>false</default>
+                <label>Inventor Interface</label>
+            </value>
+            <value>
+                <fullName>Kernel</fullName>
+                <default>false</default>
+                <label>Kernel</label>
+            </value>
+            <value>
+                <fullName>Labeling</fullName>
+                <default>false</default>
+                <label>Labeling</label>
+            </value>
+            <value>
+                <fullName>Main</fullName>
+                <default>false</default>
+                <label>Main</label>
+            </value>
+            <value>
+                <fullName>No Bundle</fullName>
+                <default>false</default>
+                <label>No Bundle</label>
+            </value>
+            <value>
+                <fullName>NX Interface</fullName>
+                <default>false</default>
+                <label>NX Interface</label>
+            </value>
+            <value>
+                <fullName>Open Data</fullName>
+                <default>false</default>
+                <label>Open Data</label>
+            </value>
+            <value>
+                <fullName>Option cordon</fullName>
+                <default>false</default>
+                <label>Option cordon</label>
+            </value>
+            <value>
+                <fullName>Options &amp; Variants</fullName>
+                <default>false</default>
+                <label>Options &amp; Variants</label>
+            </value>
+            <value>
+                <fullName>Panel</fullName>
+                <default>false</default>
+                <label>Panel</label>
+            </value>
+            <value>
+                <fullName>Panel+</fullName>
+                <default>false</default>
+                <label>Panel+</label>
+            </value>
+            <value>
+                <fullName>Panels</fullName>
+                <default>false</default>
+                <label>Panels</label>
+            </value>
+            <value>
+                <fullName>Panels Manufacturing</fullName>
+                <default>false</default>
+                <label>Panels Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Part List</fullName>
+                <default>false</default>
+                <label>Part List</label>
+            </value>
+            <value>
+                <fullName>PartList Manager</fullName>
+                <default>false</default>
+                <label>PartList Manager</label>
+            </value>
+            <value>
+                <fullName>Parts List</fullName>
+                <default>false</default>
+                <label>Parts List</label>
+            </value>
+            <value>
+                <fullName>Parts list manager</fullName>
+                <default>false</default>
+                <label>Parts list manager</label>
+            </value>
+            <value>
+                <fullName>PassXelec</fullName>
+                <default>false</default>
+                <label>PassXelec</label>
+            </value>
+            <value>
+                <fullName>PDM Connect</fullName>
+                <default>false</default>
+                <label>PDM Connect</label>
+            </value>
+            <value>
+                <fullName>PDM Connect Premium</fullName>
+                <default>false</default>
+                <label>PDM Connect Premium</label>
+            </value>
+            <value>
+                <fullName>PLC</fullName>
+                <default>false</default>
+                <label>PLC</label>
+            </value>
+            <value>
+                <fullName>Schem Nomenc</fullName>
+                <default>false</default>
+                <label>Schem Nomenc</label>
+            </value>
+            <value>
+                <fullName>SEE Calculation Base</fullName>
+                <default>false</default>
+                <label>SEE Calculation Base</label>
+            </value>
+            <value>
+                <fullName>SE EPD Ecodial Connect</fullName>
+                <default>false</default>
+                <label>SE EPD Ecodial Connect</label>
+            </value>
+            <value>
+                <fullName>SEE PM</fullName>
+                <default>false</default>
+                <label>SEE PM</label>
+            </value>
+            <value>
+                <fullName>SEE Project Manager</fullName>
+                <default>false</default>
+                <label>SEE Project Manager</label>
+            </value>
+            <value>
+                <fullName>Shop Floor</fullName>
+                <default>false</default>
+                <label>Shop Floor</label>
+            </value>
+            <value>
+                <fullName>Signals</fullName>
+                <default>false</default>
+                <label>Signals</label>
+            </value>
+            <value>
+                <fullName>SIMAC Interface</fullName>
+                <default>false</default>
+                <label>SIMAC Interface</label>
+            </value>
+            <value>
+                <fullName>Smarteam Integration</fullName>
+                <default>false</default>
+                <label>Smarteam Integration</label>
+            </value>
+            <value>
+                <fullName>SolidWorks EPDM Interface</fullName>
+                <default>false</default>
+                <label>SolidWorks EPDM Interface</label>
+            </value>
+            <value>
+                <fullName>SPM_LT</fullName>
+                <default>false</default>
+                <label>SPM_LT</label>
+            </value>
+            <value>
+                <fullName>SPM_PLM</fullName>
+                <default>false</default>
+                <label>SPM_PLM</label>
+            </value>
+            <value>
+                <fullName>SPM_Standard</fullName>
+                <default>false</default>
+                <label>SPM_Standard</label>
+            </value>
+            <value>
+                <fullName>Synoptic</fullName>
+                <default>false</default>
+                <label>Synoptic</label>
+            </value>
+            <value>
+                <fullName>Terminals</fullName>
+                <default>false</default>
+                <label>Terminals</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+            <value>
+                <fullName>VBA</fullName>
+                <default>false</default>
+                <label>VBA</label>
+            </value>
+            <value>
+                <fullName>Xaccueil</fullName>
+                <default>false</default>
+                <label>Xaccueil</label>
+            </value>
+            <value>
+                <fullName>Xalpha</fullName>
+                <default>false</default>
+                <label>Xalpha</label>
+            </value>
+            <value>
+                <fullName>Xcable</fullName>
+                <default>false</default>
+                <label>Xcable</label>
+            </value>
+            <value>
+                <fullName>Xconsult</fullName>
+                <default>false</default>
+                <label>Xconsult</label>
+            </value>
+            <value>
+                <fullName>Xedit</fullName>
+                <default>false</default>
+                <label>Xedit</label>
+            </value>
+            <value>
+                <fullName>Xedxf</fullName>
+                <default>false</default>
+                <label>Xedxf</label>
+            </value>
+            <value>
+                <fullName>Xetiq</fullName>
+                <default>false</default>
+                <label>Xetiq</label>
+            </value>
+            <value>
+                <fullName>Xfluid</fullName>
+                <default>false</default>
+                <label>Xfluid</label>
+            </value>
+            <value>
+                <fullName>Xfnes</fullName>
+                <default>false</default>
+                <label>Xfnes</label>
+            </value>
+            <value>
+                <fullName>Xmb</fullName>
+                <default>false</default>
+                <label>Xmb</label>
+            </value>
+            <value>
+                <fullName>Xnomen</fullName>
+                <default>false</default>
+                <label>Xnomen</label>
+            </value>
+            <value>
+                <fullName>Xnomen+Xparam</fullName>
+                <default>false</default>
+                <label>Xnomen+Xparam</label>
+            </value>
+            <value>
+                <fullName>Xplan</fullName>
+                <default>false</default>
+                <label>Xplan</label>
+            </value>
+            <value>
+                <fullName>Xschem</fullName>
+                <default>false</default>
+                <label>Xschem</label>
+            </value>
+            <value>
+                <fullName>Xsea</fullName>
+                <default>false</default>
+                <label>Xsea</label>
+            </value>
+            <value>
+                <fullName>Xsimul</fullName>
+                <default>false</default>
+                <label>Xsimul</label>
+            </value>
+            <value>
+                <fullName>Xtrad</fullName>
+                <default>false</default>
+                <label>Xtrad</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Building+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Distribution Diagrams</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Environment Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Intelligent PDF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Open Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building+</controllingFieldValue>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Translation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Calculation</controllingFieldValue>
+            <valueName>SEE Calculation Base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>3D Panels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>3D Panels Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Cabinet Thermal Calculation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Cross Réferencing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>DXF/DWG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Env Manager from V4R2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Kernel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Labeling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Option cordon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Options &amp; Variants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Panels Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Part List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Parts list manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Schem Nomenc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>SEE Project Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Signals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Synoptic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Terminals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xaccueil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xalpha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xcable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xconsult</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xedit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xedxf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xetiq</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xfluid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xfnes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xmb</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xnomen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xnomen+Xparam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xplan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xschem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xsea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xsimul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XELEC</controllingFieldValue>
+            <valueName>Xtrad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Free</controllingFieldValue>
+            <valueName>Circuit Diagram US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EasyRail Designer</controllingFieldValue>
+            <valueName>Main</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>3D Copper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>3D Panel (Old)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>3D Panel for Solidworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>3D Panel Manuf. for Solidworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>3D Panel Manufacturing (3D Panel+)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Automatic Diagram Generation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Base_SEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Cabling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>CANECO Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Catia Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Collaborative (with SPM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Concurrent Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Creo Elements Pro Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Cross Referencing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Data Extractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>DXF / DWG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>eCatalog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>ECOIAL Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>End Fitting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Env Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Harness Documentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Harness Manufacturing (JigBoard)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Interconnection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Inventor Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>No Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>NX Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Panels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>PartList Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Parts List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>PassXelec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>PDM Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>PDM Connect Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>PLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>SIMAC Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>Smarteam Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>SolidWorks EPDM Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Expert</controllingFieldValue>
+            <valueName>VBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Viewer</controllingFieldValue>
+            <valueName>Base_Viewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>3D Cabinet Layout (SolidWorks)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>3D Panel+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Auto Generator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical Building</controllingFieldValue>
+            <valueName>Cabinet Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Circuit Diagrams IEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Circuit Diagrams IEEE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>Intelligent Drawing Legacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>SE EPD Ecodial Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical</controllingFieldValue>
+            <valueName>SEE PM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE PM</controllingFieldValue>
+            <valueName>SPM_Standard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE PM LT</controllingFieldValue>
+            <valueName>SPM_LT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE PM PLM</controllingFieldValue>
+            <valueName>SPM_PLM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <valueName>2D Documentation Designer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <valueName>Cabling (Not Available)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <valueName>Copper (Need 3D Panel+)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <valueName>Interco (Not Available)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <valueName>Panel+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical 3D Panel+</controllingFieldValue>
+            <controllingFieldValue>SEE Electrical 3D Shop Floor</controllingFieldValue>
+            <valueName>Shop Floor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building</controllingFieldValue>
+            <valueName>Circuit Diagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building</controllingFieldValue>
+            <valueName>Drawing Editor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEE Electrical Building</controllingFieldValue>
+            <valueName>Installation Drawing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

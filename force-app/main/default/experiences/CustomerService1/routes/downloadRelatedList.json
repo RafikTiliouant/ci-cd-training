@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "aa209012-df63-46e7-86ea-5a130fc08d41",
+  "appPageId" : "10df77d6-f836-48cb-b9cf-1e87ebfdbdf7",
+  "configurationTags" : [ ],
+  "devName" : "Download_Related_List__c",
+  "id" : "4e17434b-7685-4841-a2f0-e06e218ddae7",
+  "label" : "Download Related List",
+  "objectApiName" : "Downloads__c",
+  "routeType" : "relatedlist-a37",
+  "type" : "route",
+  "urlPrefix" : "downloads"
+}

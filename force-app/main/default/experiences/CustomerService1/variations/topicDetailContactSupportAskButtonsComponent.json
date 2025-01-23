@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "0fb864e4-2859-4224-a3b2-d6f1ee7c017d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "7a3e0248-0a70-42fd-856a-d231c4eaab8f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Topic_Detail_Contact_Support_Ask_Buttons_Component",
+  "id" : "3148eaa2-d2d3-4233-94cf-98c78ca832f3",
+  "type" : "experienceVariation"
+}

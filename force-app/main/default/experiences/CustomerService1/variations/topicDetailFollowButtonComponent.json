@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "9ba3b0bc-b231-4ff3-ab9c-eb826976d73e",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "45936e40-d5e9-4634-9cfd-1fd76f4e0104",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Topic_Detail_Follow_Button_Component",
+  "id" : "6971a226-f230-454b-b459-9376e19cb2cd",
+  "type" : "experienceVariation"
+}
